@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Leo的代码库"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="#4F8954"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <FrameLayout
+        android:id="@+id/fl_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    </FrameLayout>
+
+    <RadioGroup
+        android:layout_gravity="center_vertical"
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="#C4C4C4">
+
+        <RadioButton
+            style="@style/bottom_tag_style"
+            android:id="@+id/rb_main_frame"
+            android:drawableTop="@drawable/ic_tab_video_selector"
+            android:text="常用框架"/>
+
+        <RadioButton
+            style="@style/bottom_tag_style"
+            android:id="@+id/rb_main_tpos"
+            android:drawableTop="@drawable/ic_tab_audio_selector"
+            android:text="第三方"/>
+
+        <RadioButton
+            style="@style/bottom_tag_style"
+            android:id="@+id/rb_main_custom"
+            android:drawableTop="@drawable/ic_tab_netvideo_selector"
+            android:text="自定义控件"/>
+
+        <RadioButton
+            style="@style/bottom_tag_style"
+            android:id="@+id/rb_main_other"
+            android:drawableTop="@drawable/ic_tab_netaudio_selector"
+            android:text="其他"/>
+
+
+    </RadioGroup>
+
+</LinearLayout>

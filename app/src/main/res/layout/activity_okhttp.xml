@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.OKHttpActivity">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="OKHttp框架的应用"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="#4F8954"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/bt_okhttp_getpost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get_post" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请求到的数据" />
+
+    <TextView
+        android:id="@+id/tv_okhttp_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
