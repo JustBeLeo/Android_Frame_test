@@ -74,6 +74,6 @@ public class OkGoActivity extends AppCompatActivity {
                     public void onSuccess(Response<File> response) {
                         Toast.makeText( OkGoActivity.this,"下载成功",Toast.LENGTH_SHORT ).show();
                     }
-                } );
+                } )          ;
     }
 }
