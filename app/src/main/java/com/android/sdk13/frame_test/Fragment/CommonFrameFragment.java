@@ -11,6 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.sdk13.frame_test.Activity.OKHttpActivity;
+import com.android.sdk13.frame_test.Activity.OkGoActivity;
 import com.android.sdk13.frame_test.Adpter.MyListAdpter;
 import com.android.sdk13.frame_test.Base.BaseFragment;
 import com.android.sdk13.frame_test.R;
@@ -31,7 +32,7 @@ public class CommonFrameFragment extends BaseFragment {
 
     @Override
     protected void initData() {
-        mList = new String[]{"OKHttp","xUtils3","Retrofit2","Fresco","Glide","greenDao","RxJava","volley","Gson","FastJson","picasso","eventBus","jcvideoplayer","pulltorefresh","Expandablelistview","UniversalVideoView","....."};
+        mList = new String[]{"OKHttp","OkGO","xUtils3","Retrofit2","Fresco","Glide","greenDao","RxJava","volley","Gson","FastJson","picasso","eventBus","jcvideoplayer","pulltorefresh","Expandablelistview","UniversalVideoView","....."};
         mListView.setAdapter( new MyListAdpter(mContext,mList) );
         mListView.setOnItemClickListener( new MyOnItemClickListener(mContext) );
         mListView.setVisibility( View.VISIBLE );
@@ -49,6 +50,8 @@ public class CommonFrameFragment extends BaseFragment {
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             if(mList[position].toLowerCase().equals( "okhttp" ))
                 mContext.startActivity( new Intent( mContext,OKHttpActivity.class ) );
+            if(mList[position].toLowerCase().equals( "okgo" ))
+                mContext.startActivity( new Intent( mContext,OkGoActivity.class ) );
         }
     }
 }

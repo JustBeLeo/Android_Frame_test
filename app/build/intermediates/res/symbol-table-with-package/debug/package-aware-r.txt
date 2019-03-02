@@ -692,6 +692,7 @@ id beginning
 id blocking
 id bottom
 id bt_okhttp_getpost
+id button
 id buttonPanel
 id center
 id center_horizontal
@@ -752,6 +753,7 @@ id notification_main_column_container
 id packed
 id parent
 id parentPanel
+id pb_okgo
 id percent
 id progress_circular
 id progress_horizontal
@@ -809,6 +811,7 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id tv_okgo
 id tv_okhttp_text
 id uniform
 id up
@@ -851,6 +854,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_launch
 layout activity_main
+layout activity_ok_go
 layout activity_okhttp
 layout fragment_common_frame
 layout notification_action
