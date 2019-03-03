@@ -5,4 +5,7 @@
 ![](https://github.com/JustBeLeo/Android_Frame_test/raw/master/app/src/main/res/mipmap-xxxhdpi/girl.jpg)
 ## 目前实现的功能有<br>  
 ### 1、应用程序框架<br>  
-### 2、okHttp的原生调用<br>  
+### 2、okHttp的原生调用<br> 
+    https://github.com/square/okhttp
+### 3、OkGo框架的使用<br> 
+    https://github.com/jeasonlzy/okhttp-OkGo
