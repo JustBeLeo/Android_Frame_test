@@ -26,7 +26,7 @@ public class LaunchActivity extends AppCompatActivity {
                 startActivity( new Intent( LaunchActivity.this, MainActivity.class ));
                 finish();
             }
-        },3000);
+        },1500);
     }
     public void start(){
         ;

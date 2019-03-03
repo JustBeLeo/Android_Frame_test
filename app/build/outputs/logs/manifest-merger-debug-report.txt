@@ -1,12 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\62eed6ccedbfd56d27ae9f478a86f001\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\30ea812f6b03d84656670131d9f8ff21\AndroidManifest.xml:2:1-11:12
 MERGED from [com.lzy.net:okgo:3.0.4] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\okgo-3.0.4.aar\22ae8342698084f813beb9773181ab32\AndroidManifest.xml:17:1-31:12
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\11476ce71a1634cddf7cb6f8b71065cb\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\ac3e0613436691584ba2e2d76f904a6e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\874ce65d32ace07015880ac291dc6e56\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\cd9581e7152bf7cb9a9ce2103d2dfc1b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\f4855c4ae0d9430cc640d72468389c0a\AndroidManifest.xml:17:1-22:12
@@ -28,26 +30,26 @@ MERGED from [com.android.support:documentfile:28.0.0] C:\Users\sdk13\.gradle\cac
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\995246e534e6bc5d97b4bbb751f5f3c2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\235dbe376ddac75d964f46a5b8888d2e\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\b880f23c80e47d2f10ebcd35d3a56629\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2cb228ceaa16ccfb219d2ceb6e04c7a8\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9b647d1a5520aa45c3ffb238798954b2\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\5cd1ae08c5001a33704fe6fa37cfffaf\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\22b281b87cd87b63d38b1abd3d6655f9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2cb228ceaa16ccfb219d2ceb6e04c7a8\AndroidManifest.xml:17:1-22:12
-INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:4:5-43
 		INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml
-		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml
-		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:2:11-69
@@ -63,10 +65,18 @@ MERGED from [com.lzy.net:okgo:3.0.4] C:\Users\sdk13\.gradle\caches\transforms-1\
 MERGED from [com.lzy.net:okgo:3.0.4] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\okgo-3.0.4.aar\22ae8342698084f813beb9773181ab32\AndroidManifest.xml:28:5-81
 	android:name
 		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:8:5-80
+MERGED from [com.lzy.net:okgo:3.0.4] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\okgo-3.0.4.aar\22ae8342698084f813beb9773181ab32\AndroidManifest.xml:27:5-80
+MERGED from [com.lzy.net:okgo:3.0.4] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\okgo-3.0.4.aar\22ae8342698084f813beb9773181ab32\AndroidManifest.xml:27:5-80
+	android:name
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:8:22-77
 application
-ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:9:5-28:19
+ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:10:5-31:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\30ea812f6b03d84656670131d9f8ff21\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\30ea812f6b03d84656670131d9f8ff21\AndroidManifest.xml:9:5-20
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\11476ce71a1634cddf7cb6f8b71065cb\AndroidManifest.xml:12:5-20
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\11476ce71a1634cddf7cb6f8b71065cb\AndroidManifest.xml:12:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\36a9818f9f51ee97a53e131bca34e16f\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\36a9818f9f51ee97a53e131bca34e16f\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d0d9019580c6cc8f23f945f21e5c8bbb\AndroidManifest.xml:22:5-23:19
@@ -74,45 +84,51 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sdk13\.gra
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\36a9818f9f51ee97a53e131bca34e16f\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:12:9-41
-	android:roundIcon
 		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:15:9-41
 	android:icon
-		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:11:9-36
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:12:9-36
 	android:allowBackup
-		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:15:9-65
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:17:9-65
+	android:networkSecurityConfig
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:14:9-69
 activity#com.android.sdk13.frame_test.LaunchActivity
-ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:16:9-22:20
+ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:16:19-49
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:18:19-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:22:27-74
 activity#com.android.sdk13.frame_test.MainActivity
-ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:23:9-25:77
+ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:25:9-27:77
 	android:configChanges
-		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:25:13-74
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:27:13-74
 	android:name
-		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:24:13-41
-activity#com.android.sdk13.frame_test.Activity.OKHttpActivity
-ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:26:9-61
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:26:13-41
+activity#com.android.sdk13.frame_test.Activity.OkHttp.OKHttpActivity
+ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:28:9-68
 	android:name
-		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:26:19-58
-activity#com.android.sdk13.frame_test.Activity.OkGoActivity
-ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:27:9-68
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:28:19-65
+activity#com.android.sdk13.frame_test.Activity.OkHttp.OkGoActivity
+ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:29:9-66
 	android:name
-		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:27:19-56
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:29:19-63
+activity#com.android.sdk13.frame_test.Activity.XUtils3.XUtilsActivity
+ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:30:9-78
+	android:name
+		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml:30:19-66
 uses-sdk
 INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml
@@ -123,6 +139,10 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sd
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\30ea812f6b03d84656670131d9f8ff21\AndroidManifest.xml:5:5-7:41
 MERGED from [com.lzy.net:okgo:3.0.4] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\okgo-3.0.4.aar\22ae8342698084f813beb9773181ab32\AndroidManifest.xml:22:5-24:41
 MERGED from [com.lzy.net:okgo:3.0.4] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\okgo-3.0.4.aar\22ae8342698084f813beb9773181ab32\AndroidManifest.xml:22:5-24:41
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\11476ce71a1634cddf7cb6f8b71065cb\AndroidManifest.xml:8:5-10:41
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\11476ce71a1634cddf7cb6f8b71065cb\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\ac3e0613436691584ba2e2d76f904a6e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\ac3e0613436691584ba2e2d76f904a6e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\874ce65d32ace07015880ac291dc6e56\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\874ce65d32ace07015880ac291dc6e56\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\cd9581e7152bf7cb9a9ce2103d2dfc1b\AndroidManifest.xml:20:5-44
@@ -165,14 +185,14 @@ MERGED from [com.android.support:print:28.0.0] C:\Users\sdk13\.gradle\caches\tra
 MERGED from [com.android.support:print:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\235dbe376ddac75d964f46a5b8888d2e\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\b880f23c80e47d2f10ebcd35d3a56629\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\b880f23c80e47d2f10ebcd35d3a56629\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2cb228ceaa16ccfb219d2ceb6e04c7a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2cb228ceaa16ccfb219d2ceb6e04c7a8\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9b647d1a5520aa45c3ffb238798954b2\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9b647d1a5520aa45c3ffb238798954b2\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\5cd1ae08c5001a33704fe6fa37cfffaf\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\5cd1ae08c5001a33704fe6fa37cfffaf\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\22b281b87cd87b63d38b1abd3d6655f9\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\22b281b87cd87b63d38b1abd3d6655f9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2cb228ceaa16ccfb219d2ceb6e04c7a8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2cb228ceaa16ccfb219d2ceb6e04c7a8\AndroidManifest.xml:20:5-44
 INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml
 INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -183,10 +203,6 @@ INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml
 		ADDED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Project_test\AndroidFrameTest\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [com.lzy.net:okgo:3.0.4] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\okgo-3.0.4.aar\22ae8342698084f813beb9773181ab32\AndroidManifest.xml:27:5-80
-	android:name
-		ADDED from [com.lzy.net:okgo:3.0.4] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\okgo-3.0.4.aar\22ae8342698084f813beb9773181ab32\AndroidManifest.xml:27:22-77
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
 ADDED from [com.lzy.net:okgo:3.0.4] C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\okgo-3.0.4.aar\22ae8342698084f813beb9773181ab32\AndroidManifest.xml:29:5-84
 	android:name

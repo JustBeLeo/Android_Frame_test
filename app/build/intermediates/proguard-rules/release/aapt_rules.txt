@@ -1,8 +1,12 @@
-# Referenced at F:\OneDrive\Leo\Project\Android\Frame_test\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:32
--keep class com.android.sdk13.frame_test.Activity.OKHttpActivity { <init>(...); }
-# Referenced at F:\OneDrive\Leo\Project\Android\Frame_test\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:22
+# Referenced at F:\Project_test\AndroidFrameTest\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:35
+-keep class com.android.sdk13.frame_test.Activity.OkHttp.OKHttpActivity { <init>(...); }
+# Referenced at F:\Project_test\AndroidFrameTest\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:36
+-keep class com.android.sdk13.frame_test.Activity.OkHttp.OkGoActivity { <init>(...); }
+# Referenced at F:\Project_test\AndroidFrameTest\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:37
+-keep class com.android.sdk13.frame_test.Activity.XUtils3.XUtilsActivity { <init>(...); }
+# Referenced at F:\Project_test\AndroidFrameTest\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:25
 -keep class com.android.sdk13.frame_test.LaunchActivity { <init>(...); }
-# Referenced at F:\OneDrive\Leo\Project\Android\Frame_test\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:29
+# Referenced at F:\Project_test\AndroidFrameTest\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:32
 -keep class com.android.sdk13.frame_test.MainActivity { <init>(...); }
 # Referenced at C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\62eed6ccedbfd56d27ae9f478a86f001\res\layout\abc_alert_dialog_material.xml:41
 -keep class android.support.v4.widget.NestedScrollView { <init>(...); }
@@ -71,6 +75,34 @@
 # Referenced at C:\Users\sdk13\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\62eed6ccedbfd56d27ae9f478a86f001\res\layout\abc_alert_dialog_button_bar_material.xml:43
 -keep class android.widget.Space { <init>(...); }
 
-# Referenced at F:\OneDrive\Leo\Project\Android\Frame_test\app\src\main\res\layout\activity_okhttp.xml:21
--keepclassmembers class * { *** get_post(...); }
+# Referenced at F:\Project_test\AndroidFrameTest\app\src\main\res\layout\activity_ok_go.xml:42
+-keepclassmembers class * { *** goDownload(...); }
+
+# Referenced at F:\Project_test\AndroidFrameTest\app\src\main\res\layout\activity_ok_go.xml:26
+-keepclassmembers class * { *** goGet(...); }
+
+# Referenced at F:\Project_test\AndroidFrameTest\app\src\main\res\layout\activity_ok_go.xml:64
+-keepclassmembers class * { *** goGetBitMap(...); }
+
+# Referenced at F:\Project_test\AndroidFrameTest\app\src\main\res\layout\activity_ok_go.xml:34
+-keepclassmembers class * { *** goPost(...); }
+
+# Referenced at F:\Project_test\AndroidFrameTest\app\src\main\res\layout\activity_ok_go.xml:56
+-keepclassmembers class * { *** goUpload(...); }
+
+# Referenced at F:\Project_test\AndroidFrameTest\app\src\main\res\layout\activity_xutils.xml:9
+# Referenced at F:\Project_test\AndroidFrameTest\app\src\main\res\layout\activity_ok_go.xml:9
+-keepclassmembers class * { *** help(...); }
+
+# Referenced at F:\Project_test\AndroidFrameTest\app\src\main\res\layout\activity_xutils.xml:34
+-keepclassmembers class * { *** xBitMap(...); }
+
+# Referenced at F:\Project_test\AndroidFrameTest\app\src\main\res\layout\activity_xutils.xml:41
+-keepclassmembers class * { *** xBitMaps(...); }
+
+# Referenced at F:\Project_test\AndroidFrameTest\app\src\main\res\layout\activity_xutils.xml:27
+-keepclassmembers class * { *** xNet(...); }
+
+# Referenced at F:\Project_test\AndroidFrameTest\app\src\main\res\layout\activity_xutils.xml:20
+-keepclassmembers class * { *** xNote(...); }
 

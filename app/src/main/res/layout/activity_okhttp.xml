@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Activity.OKHttpActivity">
+    tools:context=".Activity.OkHttp.OKHttpActivity">
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
         android:textSize="20sp"
         android:background="#4F8954"
         android:textStyle="bold"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF" />
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.XUtils3.XUtilsActivity">
+    <TextView
+        android:id="@+id/tv_xutils3_title"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="xUtils3框架的应用"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="#4F8954"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:onClick="help"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xUtils3注解模块"
+        android:textAllCaps="false"
+        android:onClick="xNote"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xUtils3联网模块"
+        android:textAllCaps="false"
+        android:onClick="xNet"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xUtils3加载单张图片"
+        android:textAllCaps="false"
+        android:onClick="xBitMap"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xUtils3加载列表图片"
+        android:textAllCaps="false"
+        android:onClick="xBitMaps"/>
+</LinearLayout>

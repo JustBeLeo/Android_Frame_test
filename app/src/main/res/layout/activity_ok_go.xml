@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Activity.OkGoActivity">
+    tools:context=".Activity.OkHttp.OkGoActivity">
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
@@ -15,7 +15,8 @@
         android:textSize="20sp"
         android:background="#4F8954"
         android:textStyle="bold"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:onClick="help"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,21 +28,24 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Get"
-            android:onClick="goGet"/>
+            android:onClick="goGet"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Post"
-            android:onClick="goPost"/>
+            android:onClick="goPost"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Download"
-            android:onClick="goDownload"/>
+            android:onClick="goDownload"
+            android:textAllCaps="false"/>
     </LinearLayout>
 
     <LinearLayout
@@ -53,19 +57,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Upload"
+            android:onClick="goUpload"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="GetBitMap"
+            android:onClick="goGetBitMap"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Fuckyou"
+            android:textAllCaps="false"/>
     </LinearLayout>
 
     <ProgressBar
@@ -78,4 +87,15 @@
         android:id="@+id/tv_okgo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_okgo_bitmap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
 </LinearLayout>

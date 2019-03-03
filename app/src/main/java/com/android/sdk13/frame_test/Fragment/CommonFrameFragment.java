@@ -2,21 +2,16 @@ package com.android.sdk13.frame_test.Fragment;
 
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import com.android.sdk13.frame_test.Activity.OKHttpActivity;
-import com.android.sdk13.frame_test.Activity.OkGoActivity;
+import com.android.sdk13.frame_test.Activity.OkHttp.OKHttpActivity;
+import com.android.sdk13.frame_test.Activity.OkHttp.OkGoActivity;
+import com.android.sdk13.frame_test.Activity.XUtils3.XUtilsActivity;
 import com.android.sdk13.frame_test.Adpter.MyListAdpter;
 import com.android.sdk13.frame_test.Base.BaseFragment;
 import com.android.sdk13.frame_test.R;
-
-import java.net.ConnectException;
 
 public class CommonFrameFragment extends BaseFragment {
     private static final String TAG = CommonFrameFragment.class.getSimpleName();
@@ -52,6 +47,8 @@ public class CommonFrameFragment extends BaseFragment {
                 mContext.startActivity( new Intent( mContext,OKHttpActivity.class ) );
             if(mList[position].toLowerCase().equals( "okgo" ))
                 mContext.startActivity( new Intent( mContext,OkGoActivity.class ) );
+            if(mList[position].toLowerCase().equals( "xutils3" ))
+                mContext.startActivity( new Intent( mContext,XUtilsActivity.class ) );
         }
     }
 }
