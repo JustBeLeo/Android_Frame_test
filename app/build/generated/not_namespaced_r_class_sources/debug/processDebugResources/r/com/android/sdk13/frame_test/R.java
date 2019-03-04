@@ -3202,15 +3202,22 @@ public final class R {
     public static final int title_template=0x7f070099;
     public static final int top=0x7f07009a;
     public static final int topPanel=0x7f07009b;
-    public static final int tv_okgo=0x7f07009c;
-    public static final int tv_okhttp_text=0x7f07009d;
-    public static final int tv_xutils3_title=0x7f07009e;
-    public static final int uniform=0x7f07009f;
-    public static final int up=0x7f0700a0;
-    public static final int useLogo=0x7f0700a1;
-    public static final int withText=0x7f0700a2;
-    public static final int wrap=0x7f0700a3;
-    public static final int wrap_content=0x7f0700a4;
+    public static final int tv_fast_json_from=0x7f07009c;
+    public static final int tv_fast_json_to=0x7f07009d;
+    public static final int tv_gson_from=0x7f07009e;
+    public static final int tv_gson_t1=0x7f07009f;
+    public static final int tv_gson_t2=0x7f0700a0;
+    public static final int tv_gson_to=0x7f0700a1;
+    public static final int tv_okgo=0x7f0700a2;
+    public static final int tv_okhttp_text=0x7f0700a3;
+    public static final int tv_xutils3_fragment_title=0x7f0700a4;
+    public static final int tv_xutils3_title=0x7f0700a5;
+    public static final int uniform=0x7f0700a6;
+    public static final int up=0x7f0700a7;
+    public static final int useLogo=0x7f0700a8;
+    public static final int withText=0x7f0700a9;
+    public static final int wrap=0x7f0700aa;
+    public static final int wrap_content=0x7f0700ab;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -3248,22 +3255,25 @@ public final class R {
     public static final int abc_search_view=0x7f090019;
     public static final int abc_select_dialog_material=0x7f09001a;
     public static final int abc_tooltip=0x7f09001b;
-    public static final int activity_launch=0x7f09001c;
-    public static final int activity_main=0x7f09001d;
-    public static final int activity_ok_go=0x7f09001e;
-    public static final int activity_okhttp=0x7f09001f;
-    public static final int activity_xutils=0x7f090020;
-    public static final int fragment_common_frame=0x7f090021;
-    public static final int notification_action=0x7f090022;
-    public static final int notification_action_tombstone=0x7f090023;
-    public static final int notification_template_custom_big=0x7f090024;
-    public static final int notification_template_icon_group=0x7f090025;
-    public static final int notification_template_part_chronometer=0x7f090026;
-    public static final int notification_template_part_time=0x7f090027;
-    public static final int select_dialog_item_material=0x7f090028;
-    public static final int select_dialog_multichoice_material=0x7f090029;
-    public static final int select_dialog_singlechoice_material=0x7f09002a;
-    public static final int support_simple_spinner_dropdown_item=0x7f09002b;
+    public static final int activity_fast_json=0x7f09001c;
+    public static final int activity_gson=0x7f09001d;
+    public static final int activity_launch=0x7f09001e;
+    public static final int activity_main=0x7f09001f;
+    public static final int activity_ok_go=0x7f090020;
+    public static final int activity_okhttp=0x7f090021;
+    public static final int activity_xutils=0x7f090022;
+    public static final int activity_xutils3_fragment=0x7f090023;
+    public static final int fragment_common_frame=0x7f090024;
+    public static final int notification_action=0x7f090025;
+    public static final int notification_action_tombstone=0x7f090026;
+    public static final int notification_template_custom_big=0x7f090027;
+    public static final int notification_template_icon_group=0x7f090028;
+    public static final int notification_template_part_chronometer=0x7f090029;
+    public static final int notification_template_part_time=0x7f09002a;
+    public static final int select_dialog_item_material=0x7f09002b;
+    public static final int select_dialog_multichoice_material=0x7f09002c;
+    public static final int select_dialog_singlechoice_material=0x7f09002d;
+    public static final int support_simple_spinner_dropdown_item=0x7f09002e;
   }
   public static final class mipmap {
     public static final int dfyc=0x7f0a0000;
@@ -3665,6 +3675,7 @@ public final class R {
     public static final int Widget_Compat_NotificationActionText=0x7f0c0159;
     public static final int Widget_Support_CoordinatorLayout=0x7f0c015a;
     public static final int bottom_tag_style=0x7f0c015b;
+    public static final int title_bar_style=0x7f0c015c;
   }
   public static final class styleable {
     /**

@@ -5,18 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Activity.XUtils3.XUtilsActivity">
+    tools:context=".XUtils3.XUtilsActivity">
     <TextView
         android:id="@+id/tv_xutils3_title"
-        android:layout_width="match_parent"
-        android:layout_height="38dp"
         android:text="xUtils3框架的应用"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:background="#4F8954"
-        android:textStyle="bold"
-        android:textColor="#FFFFFF"
-        android:onClick="help"/>
+        style="@style/title_bar_style"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

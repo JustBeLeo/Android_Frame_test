@@ -1,4 +1,4 @@
-package com.android.sdk13.frame_test.Activity.OkHttp;
+package com.android.sdk13.frame_test.OkHttp;
 
 import android.graphics.Bitmap;
 import android.os.Environment;

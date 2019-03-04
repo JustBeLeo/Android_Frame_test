@@ -22,6 +22,7 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/dfyc"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity android:name="com.android.sdk13.frame_test.LaunchActivity" >
             <intent-filter>
@@ -33,9 +34,12 @@
         <activity
             android:name="com.android.sdk13.frame_test.MainActivity"
             android:configChanges="orientation|screenSize|keyboardHidden" />
-        <activity android:name="com.android.sdk13.frame_test.Activity.OkHttp.OKHttpActivity" />
-        <activity android:name="com.android.sdk13.frame_test.Activity.OkHttp.OkGoActivity" />
-        <activity android:name="com.android.sdk13.frame_test.Activity.XUtils3.XUtilsActivity" />
+        <activity android:name="com.android.sdk13.frame_test.OkHttp.OKHttpActivity" />
+        <activity android:name="com.android.sdk13.frame_test.OkHttp.OkGoActivity" />
+        <activity android:name="com.android.sdk13.frame_test.XUtils3.XUtilsActivity" />
+        <activity android:name="com.android.sdk13.frame_test.XUtils3.annotation.XUtils3Fragment" />
+        <activity android:name="com.android.sdk13.frame_test.Json.GsonActivity" />
+        <activity android:name="com.android.sdk13.frame_test.Json.FastJsonActivity" />
     </application>
 
 </manifest>

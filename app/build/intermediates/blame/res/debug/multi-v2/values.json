@@ -69,20 +69,20 @@
                 {
                     "source": "F:\\Project_test\\AndroidFrameTest\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "3,10",
-                        "startColumns": "4,4",
-                        "startOffsets": "57,384",
-                        "endLines": "8,19",
-                        "endColumns": "12,12",
-                        "endOffsets": "376,897"
+                        "startLines": "3,-1,21",
+                        "startColumns": "4,-1,4",
+                        "startOffsets": "57,-1,905",
+                        "endLines": "8,-1,30",
+                        "endColumns": "12,-1,12",
+                        "endOffsets": "376,-1,1384"
                     },
                     "to": {
-                        "startLines": "1636,3101",
-                        "startColumns": "4,4",
-                        "startOffsets": "65946,163786",
-                        "endLines": "1641,3110",
-                        "endColumns": "12,12",
-                        "endOffsets": "66260,164290"
+                        "startLines": "1636,3101,3111",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "65946,163786,164295",
+                        "endLines": "1641,3110,3120",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "66260,164290,164765"
                     }
                 },
                 {

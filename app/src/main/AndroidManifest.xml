@@ -26,12 +26,18 @@
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize|keyboardHidden" />
-        <activity android:name=".Activity.OkHttp.OKHttpActivity"
-            tools:ignore="InnerclassSeparator"/>
-        <activity android:name=".Activity.OkHttp.OkGoActivity"
+        <activity
+            android:name=".OkHttp.OKHttpActivity"
             tools:ignore="InnerclassSeparator" />
-        <activity android:name=".Activity.XUtils3.XUtilsActivity"
+        <activity
+            android:name=".OkHttp.OkGoActivity"
             tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".XUtils3.XUtilsActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity android:name=".XUtils3.annotation.XUtils3Fragment" />
+        <activity android:name=".Json.GsonActivity" />
+        <activity android:name=".Json.FastJsonActivity"></activity>
     </application>
 
 </manifest>

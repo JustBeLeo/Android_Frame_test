@@ -828,8 +828,15 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id tv_fast_json_from
+id tv_fast_json_to
+id tv_gson_from
+id tv_gson_t1
+id tv_gson_t2
+id tv_gson_to
 id tv_okgo
 id tv_okhttp_text
+id tv_xutils3_fragment_title
 id tv_xutils3_title
 id uniform
 id up
@@ -870,11 +877,14 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_fast_json
+layout activity_gson
 layout activity_launch
 layout activity_main
 layout activity_ok_go
 layout activity_okhttp
 layout activity_xutils
+layout activity_xutils3_fragment
 layout fragment_common_frame
 layout notification_action
 layout notification_action_tombstone
@@ -1281,6 +1291,7 @@ style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
 style Widget_Support_CoordinatorLayout
 style bottom_tag_style
+style title_bar_style
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

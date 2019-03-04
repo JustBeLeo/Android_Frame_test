@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Json.FastJsonActivity">
+
+    <TextView
+        style="@style/title_bar_style"
+        android:text="FastJson框架操作" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fastjson1"
+        android:text="将Json对象转换为Java对象"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fastjson2"
+        android:text="将Json数组转换为Java数组"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fastjson3"
+        android:text="将Java对象转换为Json对象"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fastjson4"
+        android:text="将Java数组转换为Json数组"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="初始数据"
+        android:textColor="@android:color/holo_red_light" />
+
+    <TextView
+        android:id="@+id/tv_fast_json_from"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="horizontal"
+        android:text="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="传出数据"
+        android:textColor="@android:color/holo_red_light" />
+
+    <TextView
+        android:id="@+id/tv_fast_json_to"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="horizontal"
+        android:text="" />
+</LinearLayout>

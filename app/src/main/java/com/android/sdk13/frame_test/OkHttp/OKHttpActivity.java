@@ -1,4 +1,4 @@
-package com.android.sdk13.frame_test.Activity.OkHttp;
+package com.android.sdk13.frame_test.OkHttp;
 
 import android.annotation.SuppressLint;
 import android.os.Handler;

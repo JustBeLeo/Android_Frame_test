@@ -1,4 +1,4 @@
-package com.android.sdk13.frame_test.Activity.XUtils3;
+package com.android.sdk13.frame_test.XUtils3;
 
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;

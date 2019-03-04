@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Activity.OkHttp.OkGoActivity">
+    tools:context=".OkHttp.OkGoActivity">
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
