@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ButterKnife.ButterKnifeActivity">
+    <TextView
+        style="@style/title_bar_style"
+        android:text="ButterKnife框架测试" />
+
+    <Button
+        android:id="@+id/bt_btk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示ButterKnife操作"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/tv_btk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:text=""
+        android:scrollbars="horizontal"/>
+
+
+</LinearLayout>

@@ -706,6 +706,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id bt_btk
 id bt_okhttp_getpost
 id button
 id buttonPanel
@@ -828,6 +829,9 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id tv_btk
+id tv_eventbus
+id tv_eventbus_send
 id tv_fast_json_from
 id tv_fast_json_to
 id tv_gson_from
@@ -877,6 +881,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_butter_knife
+layout activity_event_bus
+layout activity_event_bus_send
 layout activity_fast_json
 layout activity_gson
 layout activity_launch

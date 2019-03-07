@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.android.sdk13.frame_test.ButterKnife.ButterKnifeActivity;
+import com.android.sdk13.frame_test.EventBus.EventBusActivity;
 import com.android.sdk13.frame_test.Json.FastJsonActivity;
 import com.android.sdk13.frame_test.Json.GsonActivity;
 import com.android.sdk13.frame_test.OkHttp.OKHttpActivity;
@@ -29,7 +31,7 @@ public class CommonFrameFragment extends BaseFragment {
 
     @Override
     protected void initData() {
-        mList = new String[]{"OKHttp","OkGO","Gson" ,"FastJson" ,"xUtils3","Retrofit2","Fresco","Glide","greenDao","RxJava","volley","picasso","eventBus","jcvideoplayer","pulltorefresh","Expandablelistview","UniversalVideoView","....."};
+        mList = new String[]{"OKHttp","OkGO","Gson" ,"FastJson" ,"xUtils3","EventBus" ,"ButterKnife","Retrofit2","Fresco","Glide","greenDao","RxJava","volley","picasso","jcvideoplayer","pulltorefresh","Expandablelistview","UniversalVideoView","....."};
         mListView.setAdapter( new MyListAdpter(mContext,mList) );
         mListView.setOnItemClickListener( new MyOnItemClickListener(mContext) );
         mListView.setVisibility( View.VISIBLE );
@@ -45,17 +47,31 @@ public class CommonFrameFragment extends BaseFragment {
         }
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-            if(mList[position].toLowerCase().equals( "okhttp" ))
-                mContext.startActivity( new Intent( mContext,OKHttpActivity.class ) );
-            if(mList[position].toLowerCase().equals( "okgo" ))
-                mContext.startActivity( new Intent( mContext,OkGoActivity.class ) );
-            if(mList[position].toLowerCase().equals( "xutils3" ))
-                mContext.startActivity( new Intent( mContext,XUtilsActivity.class ) );
-            if(mList[position].toLowerCase().equals( "gson" ))
-                mContext.startActivity( new Intent( mContext,GsonActivity.class ) );
-            if(mList[position].toLowerCase().equals( "fastjson" ))
-                mContext.startActivity( new Intent( mContext,FastJsonActivity.class ) );
+            if(cmp(position,"okhttp"))
+                start( OKHttpActivity.class );
+            if(cmp(position,"okgo"))
+                start( OkGoActivity.class );
+            if(cmp(position,"xutils3"))
+                start( XUtilsActivity.class );
+            if(cmp(position,"gson"))
+                start( GsonActivity.class );
+            if(cmp(position,"fastjson"))
+                start( FastJsonActivity.class );
+            if(cmp(position,"eventbus"))
+                start( EventBusActivity.class );
+            if(cmp(position,"butterknife"))
+                start( ButterKnifeActivity.class );
         }
+    }
+
+    private void start(Class<?> c){
+        mContext.startActivity( new Intent( mContext, c ) );
+    }
+
+    private boolean cmp(int position,String s) {
+        if(mList[position].toLowerCase().equals(s))
+            return true;
+        return false;
     }
 }
 
