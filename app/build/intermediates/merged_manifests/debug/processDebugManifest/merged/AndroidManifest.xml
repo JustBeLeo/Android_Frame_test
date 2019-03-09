@@ -42,6 +42,15 @@
         <activity android:name="com.android.sdk13.frame_test.EventBus.EventBusActivity" />
         <activity android:name="com.android.sdk13.frame_test.EventBus.EventBusSendActivity" />
         <activity android:name="com.android.sdk13.frame_test.ButterKnife.ButterKnifeActivity" />
+        <activity android:name="com.android.sdk13.frame_test.RecycleView.RecycleViewActivity" />
+        <activity android:name="com.android.sdk13.frame_test.Picasso.Activity.PicassoActivity" />
+        <activity android:name="com.android.sdk13.frame_test.Picasso.Activity.PicassoListViewActivity" />
+        <activity android:name="com.android.sdk13.frame_test.Picasso.Activity.PicassoTransformActivity" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.android.sdk13.frame_test.com.squareup.picasso"
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-#Wed Mar 06 15:45:13 CST 2019
+#Sat Mar 09 22:36:32 CST 2019
 base.0=F\:\\Project_test\\AndroidFrameTest\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.1=classes.dex
 renamed.1=classes2.dex

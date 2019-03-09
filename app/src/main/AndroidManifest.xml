@@ -42,8 +42,11 @@
         <activity android:name=".Json.FastJsonActivity" />
         <activity android:name=".EventBus.EventBusActivity" />
         <activity android:name=".EventBus.EventBusSendActivity" />
-        <activity android:name=".ButterKnife.ButterKnifeActivity"></activity>
+        <activity android:name=".ButterKnife.ButterKnifeActivity" />
+        <activity android:name=".RecycleView.RecycleViewActivity" />
+        <activity android:name=".Picasso.Activity.PicassoActivity" />
+        <activity android:name=".Picasso.Activity.PicassoListViewActivity" />
+        <activity android:name=".Picasso.Activity.PicassoTransformActivity"></activity>
     </application>
-
 
 </manifest>

@@ -737,6 +737,7 @@ id fill_horizontal
 id fill_vertical
 id fl_main_content
 id forever
+id glide_custom_view_target_tag
 id gone
 id group_divider
 id groups
@@ -752,6 +753,11 @@ id invisible
 id italic
 id item_touch_helper_previous_elevation
 id iv_okgo_bitmap
+id iv_picasso_image1
+id iv_picasso_image2
+id iv_picasso_image3
+id iv_picasso_item
+id iv_rvitem_chathead
 id left
 id line1
 id line3
@@ -784,6 +790,8 @@ id rg_main
 id right
 id right_icon
 id right_side
+id rv_picasso
+id rv_view
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -840,6 +848,10 @@ id tv_gson_t2
 id tv_gson_to
 id tv_okgo
 id tv_okhttp_text
+id tv_picasso_item
+id tv_rvitem_text
+id tv_rvitem_time
+id tv_rvitem_title
 id tv_xutils3_fragment_title
 id tv_xutils3_title
 id uniform
@@ -890,9 +902,15 @@ layout activity_launch
 layout activity_main
 layout activity_ok_go
 layout activity_okhttp
+layout activity_picasso
+layout activity_picasso_list_view
+layout activity_picasso_transform
+layout activity_recycle_view
 layout activity_xutils
 layout activity_xutils3_fragment
 layout fragment_common_frame
+layout item_picasso
+layout item_recycler_view
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

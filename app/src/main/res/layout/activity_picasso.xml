@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Picasso.Activity.PicassoActivity">
+
+    <TextView
+        style="@style/title_bar_style"
+        android:text="Picasso图片加载框架"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加载网络图片"
+        android:onClick="loadImage"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="在ListView中加载网络图片"
+        android:textAllCaps="false"
+        android:onClick="loadListImage"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片变换"
+        android:onClick="transformImage"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_picasso_image1"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp" />
+
+            <ImageView
+                android:id="@+id/iv_picasso_image2"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp" />
+
+            <ImageView
+                android:id="@+id/iv_picasso_image3"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

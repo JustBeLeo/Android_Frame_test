@@ -12,6 +12,8 @@ import com.android.sdk13.frame_test.Json.FastJsonActivity;
 import com.android.sdk13.frame_test.Json.GsonActivity;
 import com.android.sdk13.frame_test.OkHttp.OKHttpActivity;
 import com.android.sdk13.frame_test.OkHttp.OkGoActivity;
+import com.android.sdk13.frame_test.Picasso.Activity.PicassoActivity;
+import com.android.sdk13.frame_test.RecycleView.RecycleViewActivity;
 import com.android.sdk13.frame_test.XUtils3.XUtilsActivity;
 import com.android.sdk13.frame_test.Adpter.MyListAdpter;
 import com.android.sdk13.frame_test.Base.BaseFragment;
@@ -31,7 +33,7 @@ public class CommonFrameFragment extends BaseFragment {
 
     @Override
     protected void initData() {
-        mList = new String[]{"OKHttp","OkGO","Gson" ,"FastJson" ,"xUtils3","EventBus" ,"ButterKnife","Retrofit2","Fresco","Glide","greenDao","RxJava","volley","picasso","jcvideoplayer","pulltorefresh","Expandablelistview","UniversalVideoView","....."};
+        mList = new String[]{"OKHttp","OkGO","Gson" ,"FastJson" ,"xUtils3","EventBus" ,"ButterKnife","RecycleView","Picasso" ,"Retrofit2","Fresco","Glide","greenDao","RxJava","volley","jcvideoplayer","pulltorefresh","Expandablelistview","UniversalVideoView","....."};
         mListView.setAdapter( new MyListAdpter(mContext,mList) );
         mListView.setOnItemClickListener( new MyOnItemClickListener(mContext) );
         mListView.setVisibility( View.VISIBLE );
@@ -61,6 +63,10 @@ public class CommonFrameFragment extends BaseFragment {
                 start( EventBusActivity.class );
             if(cmp(position,"butterknife"))
                 start( ButterKnifeActivity.class );
+            if(cmp(position,"recycleview"))
+                start( RecycleViewActivity.class );
+            if(cmp(position,"picasso"))
+                start( PicassoActivity.class );
         }
     }
 
