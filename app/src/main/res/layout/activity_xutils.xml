@@ -9,7 +9,8 @@
     <TextView
         android:id="@+id/tv_xutils3_title"
         android:text="xUtils3框架的应用"
-        style="@style/title_bar_style"/>
+        style="@style/title_bar_style"
+        android:onClick="help"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

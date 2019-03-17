@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Glide.Activity.GlideBasicActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/title_bar_style"
+            android:text="Glide基本图片加载"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="加载网络图片"
+            android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:id="@+id/iv_glide_netpic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="加载资源图片"
+            android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:id="@+id/iv_glide_respic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="加载本地图片"
+            android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:id="@+id/iv_glide_sdpic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="加载网络gif"
+            android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:id="@+id/iv_glide_netgif"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="加载资源gif"
+            android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:id="@+id/iv_glide_resgif"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="加载本地gif"
+            android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:id="@+id/iv_glide_sdgif"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="加载本地小视频和快照"
+            android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:id="@+id/iv_glide_sdvideo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="先加载缩略图"
+            android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:id="@+id/iv_glide_thumb"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

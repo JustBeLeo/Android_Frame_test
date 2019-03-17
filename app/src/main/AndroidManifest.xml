@@ -46,7 +46,12 @@
         <activity android:name=".RecycleView.RecycleViewActivity" />
         <activity android:name=".Picasso.Activity.PicassoActivity" />
         <activity android:name=".Picasso.Activity.PicassoListViewActivity" />
-        <activity android:name=".Picasso.Activity.PicassoTransformActivity"></activity>
+        <activity android:name=".Picasso.Activity.PicassoTransformActivity" />
+        <activity android:name=".Glide.Activity.GlideActivity" />
+        <activity android:name=".Glide.Activity.GlideBasicActivity" />
+        <activity android:name=".Glide.Activity.GlideRecycleViewActivity" />
+        <activity android:name=".Glide.Activity.GlideTransformActivity" />
+        <activity android:name=".TabLayout.TabLayoutActivity"></activity>
     </application>
 
 </manifest>

@@ -10,7 +10,8 @@
 
     <TextView
         style="@style/title_bar_style"
-        android:text="Picasso图片加载框架"/>
+        android:text="Picasso图片加载框架"
+        android:onClick="help"/>
 
     <Button
         android:layout_width="match_parent"

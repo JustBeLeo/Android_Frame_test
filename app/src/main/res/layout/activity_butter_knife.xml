@@ -8,7 +8,8 @@
     tools:context=".ButterKnife.ButterKnifeActivity">
     <TextView
         style="@style/title_bar_style"
-        android:text="ButterKnife框架测试" />
+        android:text="ButterKnife框架测试"
+        android:onClick="help"/>
 
     <Button
         android:id="@+id/bt_btk"

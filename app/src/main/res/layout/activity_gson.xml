@@ -9,7 +9,8 @@
 
     <TextView
         style="@style/title_bar_style"
-        android:text="Gson框架操作" />
+        android:text="Gson框架操作"
+        android:onClick="help"/>
 
     <Button
         android:layout_width="match_parent"

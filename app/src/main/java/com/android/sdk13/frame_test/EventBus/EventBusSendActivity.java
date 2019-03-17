@@ -28,8 +28,6 @@ public class EventBusSendActivity extends AppCompatActivity {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_event_bus_send );
         tv_eventbus_send = findViewById( R.id.tv_eventbus_send );
-
-
     }
 
     public void help(View v) {

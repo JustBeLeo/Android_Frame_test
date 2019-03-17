@@ -22,6 +22,7 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/dfyc"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity android:name="com.android.sdk13.frame_test.LaunchActivity" >
             <intent-filter>
@@ -46,6 +47,11 @@
         <activity android:name="com.android.sdk13.frame_test.Picasso.Activity.PicassoActivity" />
         <activity android:name="com.android.sdk13.frame_test.Picasso.Activity.PicassoListViewActivity" />
         <activity android:name="com.android.sdk13.frame_test.Picasso.Activity.PicassoTransformActivity" />
+        <activity android:name="com.android.sdk13.frame_test.Glide.Activity.GlideActivity" />
+        <activity android:name="com.android.sdk13.frame_test.Glide.Activity.GlideBasicActivity" />
+        <activity android:name="com.android.sdk13.frame_test.Glide.Activity.GlideRecycleViewActivity" />
+        <activity android:name="com.android.sdk13.frame_test.Glide.Activity.GlideTransformActivity" />
+        <activity android:name="com.android.sdk13.frame_test.TabLayout.TabLayoutActivity" />
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"

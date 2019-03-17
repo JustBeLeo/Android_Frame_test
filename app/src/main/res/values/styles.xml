@@ -26,7 +26,6 @@
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#FFFFFF</item>
-        <item name="android:onClick">help</item>
         <item name="android:background">#4F8954</item>
     </style>
 

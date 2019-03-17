@@ -9,7 +9,8 @@
 
     <TextView
         style="@style/title_bar_style"
-        android:text="RecycleView的操作" />
+        android:text="RecycleView的操作"
+        android:onClick="help"/>
 
     <LinearLayout
         android:layout_width="match_parent"
